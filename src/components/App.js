@@ -2,54 +2,49 @@
 import React from "react";
 import styled from "styled-components";
 
-import { logo } from "../img/logo";
+import Header from "./Header";
+import Card from "./Card";
+
+// const img =
+//     "https://marts-portfolio.s3.eu-west-2.amazonaws.com/hacker-news.jpg";
+// const title = "Hacker News";
+// const alt = "Hacker News app";
+
+import cardData from "../cardData";
 
 const Page = styled.div`
     max-width: 960px;
-    height: 100%;
+    min-height: 100%;
     background: whitesmoke;
     margin: 10px auto;
     padding: 10px;
 `;
 
-const StyledHeader = styled.header`
-    .logo_container {
-        display: flex;
-        align-items: center;
-        max-width: 300px;
-    }
-    .title {
-        font-size: 1.5rem;
-        margin: 0 auto;
-    }
-    .subtitle {
-        display: block;
-        font-size: 1.2rem;
-        font-weight: 700;
-        color: #d15c21;
-        text-align: center;
-    }
+const FeaturedList = styled.ul`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 `;
-
-function Header() {
-    return (
-        <StyledHeader>
-            <div className="logo_container">
-                <img src={logo} alt="logo" />
-                <h1 className="title">
-                    Martin Tudor
-                    <span className="subtitle">Web Developer</span>
-                </h1>
-            </div>
-        </StyledHeader>
-    );
-}
 
 function App() {
     return (
         <Page>
             <Header />
             <hr />
+            <FeaturedList>
+                {cardData.map(({ title, img, alt, link }) => (
+                    <Card
+                        key={title}
+                        title={title}
+                        img={img}
+                        alt={alt}
+                        link={link}
+                    />
+                ))}
+            </FeaturedList>
         </Page>
     );
 }
