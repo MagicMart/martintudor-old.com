@@ -3,7 +3,7 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledCard = styled.li`
-    width: 200px;
+    flex: 0 1 250px;
     border: 1px solid green;
     margin: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -13,6 +13,7 @@ const StyledCard = styled.li`
     }
     img {
         width: 100%;
+        border-bottom: 1px solid green;
     }
     .container {
         padding: 2px 8px;

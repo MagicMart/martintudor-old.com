@@ -5,11 +5,6 @@ import styled from "styled-components";
 import Header from "./Header";
 import Card from "./Card";
 
-// const img =
-//     "https://marts-portfolio.s3.eu-west-2.amazonaws.com/hacker-news.jpg";
-// const title = "Hacker News";
-// const alt = "Hacker News app";
-
 import cardData from "../cardData";
 
 const Page = styled.div`
@@ -45,6 +40,7 @@ function App() {
                     />
                 ))}
             </FeaturedList>
+            <hr />
         </Page>
     );
 }
