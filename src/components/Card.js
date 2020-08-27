@@ -28,15 +28,18 @@ type CardProps = {
     title: string,
     img: string,
     alt: string,
+    link: string,
 };
 
-function Card({ title, img, alt }: CardProps) {
+function Card({ title, img, alt, link }: CardProps) {
     return (
         <StyledCard>
-            <img src={img} alt={alt} />
-            <div className="container">
-                <h4>{title}</h4>
-            </div>
+            <a href={link}>
+                <img src={img} alt={alt} />
+                <div className="container">
+                    <h4>{title}</h4>
+                </div>
+            </a>
         </StyledCard>
     );
 }
