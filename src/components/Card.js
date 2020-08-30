@@ -4,13 +4,13 @@ import styled from "styled-components";
 
 const StyledCard = styled.li`
     flex: 0 1 200px;
-    border: 1px solid green;
+    height: 200px;
+    border: 2px solid green;
     margin: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     &:hover {
-        /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); */
-        border: 3px solid orange;
+        border: 2px solid #d15c21;
     }
     img {
         width: 100%;
