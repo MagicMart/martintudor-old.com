@@ -21,6 +21,7 @@
     "@typescript-eslint/parser": "3.x",
     "babel-eslint": "10.x",
     "babel-jest": "^26.3.0",
+    "babel-plugin-styled-components": "^1.11.1",
     "eslint": "7.x",
     "eslint-config-react-app": "^5.2.1",
     "eslint-plugin-flowtype": "5.x",
