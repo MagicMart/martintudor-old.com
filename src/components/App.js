@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 import Header from "./Header";
 import Card from "./Card";
+import Footer from "./Footer";
 
 import cardData from "../cardData";
 
@@ -20,7 +21,7 @@ const FeaturedList = styled.ul`
     flex-wrap: wrap;
     justify-content: center;
     list-style-type: none;
-    padding: 0;
+    padding: 0 0 20px;
     margin: 0;
 `;
 
@@ -39,6 +40,7 @@ function App() {
                     />
                 ))}
             </FeaturedList>
+            <Footer />
         </Page>
     );
 }
