@@ -28,7 +28,6 @@ function App() {
     return (
         <Page>
             <Header />
-            <hr />
             <FeaturedList>
                 {cardData.map(({ title, img, alt, link }) => (
                     <Card
@@ -40,7 +39,6 @@ function App() {
                     />
                 ))}
             </FeaturedList>
-            <hr />
         </Page>
     );
 }

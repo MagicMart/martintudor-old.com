@@ -16,13 +16,18 @@ const StyledCard = styled.li`
         width: 100%;
         height: 160px;
         object-fit: cover;
-        border-bottom: 1px solid green;
+        border-bottom: 2px solid green;
     }
 
     .title {
+        color: #4a4a4a;
+        font-weight: 700;
         text-align: center;
         margin: 0;
         padding: 1em 0;
+    }
+    .title:hover {
+        color: #d15c21;
     }
 `;
 

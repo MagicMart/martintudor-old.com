@@ -5,6 +5,8 @@ import styled from "styled-components";
 import { logo } from "../img/logo";
 
 const StyledHeader = styled.header`
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
     .logo_container {
         display: flex;
         align-items: center;
@@ -15,6 +17,7 @@ const StyledHeader = styled.header`
         margin: 0 auto;
     }
     .subtitle {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         display: block;
         font-size: 1.2rem;
         font-weight: 700;
