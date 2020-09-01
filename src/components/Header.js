@@ -35,7 +35,7 @@ function Header() {
     return (
         <StyledHeader>
             <div className="logo_container">
-                <img src={logo} alt="logo" />
+                <img height="100" width="100" src={logo} alt="logo" />
                 <h1 className="title">
                     Martin Tudor
                     <a href="https://github.com/MagicMart">
