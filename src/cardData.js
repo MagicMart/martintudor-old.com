@@ -11,7 +11,7 @@ const cardData = [
         img:
             "https://marts-portfolio.s3.eu-west-2.amazonaws.com/dev-simple2.jpg",
         alt: "Sequence memory game",
-        link: "https://jzsgku7hoi.execute-api.eu-west-2.amazonaws.com/",
+        link: "https://6r7iwacvaj.execute-api.eu-west-2.amazonaws.com/",
         title: "Dev Simple",
     },
     {
