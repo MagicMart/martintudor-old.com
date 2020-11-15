@@ -1,6 +1,7 @@
 // @flow
 import React from "react";
 import styled from "styled-components";
+import { GlobalStyles } from "../styles/GlobalStyles";
 
 import Header from "./Header";
 import Card from "./Card";
@@ -28,6 +29,7 @@ const FeaturedList = styled.ul`
 function App() {
     return (
         <Page>
+            <GlobalStyles />
             <Header />
             <FeaturedList>
                 {cardData.map(({ title, img, alt, link }) => (
