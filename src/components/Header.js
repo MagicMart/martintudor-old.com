@@ -5,7 +5,7 @@ import styled from "styled-components";
 import { logo } from "../img/logo";
 
 const StyledHeader = styled.header`
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: var(--box-shadow);
     margin-bottom: 20px;
     .logo_container {
         display: flex;
@@ -21,11 +21,11 @@ const StyledHeader = styled.header`
         text-decoration: none;
     }
     .subtitle {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: var(--box-shadow);
         display: block;
         font-size: 1.2rem;
         font-weight: 700;
-        color: #d15c21;
+        color: var(--orange);
         text-align: center;
         padding: 4px;
     }

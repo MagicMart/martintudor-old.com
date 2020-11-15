@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledFooter = styled.footer`
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: var(--box-shadow);
     display: flex;
     justify-content: center;
     align-items: center;

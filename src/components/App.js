@@ -12,7 +12,7 @@ import cardData from "../cardData";
 const Page = styled.div`
     max-width: 960px;
     min-height: 100%;
-    background: whitesmoke;
+    background: var(--page-bg);
     margin: 10px auto;
     padding: 10px;
 `;
