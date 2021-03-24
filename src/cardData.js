@@ -10,10 +10,10 @@ const cardData = [
 
     {
         img:
-            "https://marts-portfolio.s3.eu-west-2.amazonaws.com/images/dev-simple2.jpg",
-        alt: "Sequence memory game",
-        link: "https://6r7iwacvaj.execute-api.eu-west-2.amazonaws.com/",
-        title: "Dev Simple",
+            "https://marts-portfolio.s3.eu-west-2.amazonaws.com/images/martsphotos-500x500.jpg",
+        alt: "A photo portfolio website",
+        link: "https://martsphotos.netlify.app/",
+        title: "Mart's Photos",
     },
     {
         img:
