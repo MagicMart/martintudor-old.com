@@ -37,9 +37,10 @@ const cardData = [
         title: "Hacker News",
     },
     {
-        img: "https://marts-game-of-life.netlify.app/",
+        img:
+            "https://marts-portfolio.s3.eu-west-2.amazonaws.com/images/game-of-life.jpg",
         alt: "The Game Of life app",
-        link: "https://magicmart.github.io/Game-of-Life/",
+        link: "https://marts-game-of-life.netlify.app/",
         title: "Game of Life",
     },
 ];
