@@ -4,7 +4,7 @@ const cardData = [
         img:
             "https://marts-portfolio.s3.eu-west-2.amazonaws.com/images/memory-cards.jpg",
         alt: "Memory game cards - with React.js",
-        link: "https://marts-memory-cards.netlify.com/",
+        link: "https://memory.martintudor.com/",
         title: "Memory Game Cards",
     },
 
@@ -12,7 +12,7 @@ const cardData = [
         img:
             "https://marts-portfolio.s3.eu-west-2.amazonaws.com/images/martsphotos-500x500.jpg",
         alt: "A photo portfolio website",
-        link: "https://martsphotos.netlify.app/",
+        link: "https://photos.martintudor.com/",
         title: "Mart's Photos",
     },
     {
@@ -33,14 +33,14 @@ const cardData = [
         img:
             "https://marts-portfolio.s3.eu-west-2.amazonaws.com/images/hacker-news.jpg",
         alt: "Posts from hacker news",
-        link: "https://marts-hacker-news.netlify.com/",
+        link: "https://hacker.martintudor.com/",
         title: "Hacker News",
     },
     {
         img:
             "https://marts-portfolio.s3.eu-west-2.amazonaws.com/images/game-of-life.jpg",
         alt: "The Game Of life app",
-        link: "https://marts-game-of-life.netlify.app/",
+        link: "https://life.martintudor.com/",
         title: "Game of Life",
     },
 ];
