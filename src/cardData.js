@@ -37,6 +37,12 @@ const cardData = [
         link: "https://shop.martintudor.com/",
         title: "Shopping Site",
     },
+    {
+        img: "https://marts-portfolio.s3.eu-west-2.amazonaws.com/images/game-of-life.jpg",
+        alt: "The Game Of life app",
+        link: "https://life.martintudor.com/",
+        title: "Game of Life",
+    },
 ];
 
 export default cardData;
