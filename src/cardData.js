@@ -32,10 +32,10 @@ const cardData = [
         title: "Hacker News",
     },
     {
-        img: "https://marts-portfolio.s3.eu-west-2.amazonaws.com/images/game-of-life.jpg",
-        alt: "The Game Of life app",
-        link: "https://life.martintudor.com/",
-        title: "Game of Life",
+        img: "https://marts-portfolio.s3.eu-west-2.amazonaws.com/images/shopping-site.jpg",
+        alt: "Shopping site",
+        link: "https://shop.martintudor.com/",
+        title: "Shopping Site",
     },
 ];
 
