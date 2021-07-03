@@ -46,7 +46,13 @@ function Card({ title, img, alt, link }: CardProps) {
     return (
         <StyledCard>
             <a href={link}>
-                <img onLoad={handleImageLoad} src={src} alt={alt} />
+                <img
+                    onLoad={handleImageLoad}
+                    src={src}
+                    alt={alt}
+                    width="196"
+                    height="160"
+                />
 
                 <p className="title">{title}</p>
             </a>
