@@ -49,7 +49,7 @@ function Card({ title, img, alt, link }: CardProps) {
                 <img
                     onLoad={handleImageLoad}
                     src={src}
-                    alt={alt}
+                    alt=""
                     width="196"
                     height="160"
                 />
