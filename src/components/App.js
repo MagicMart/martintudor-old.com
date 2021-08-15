@@ -31,17 +31,19 @@ function App() {
         <Page>
             <GlobalStyles />
             <Header />
-            <FeaturedList>
-                {cardData.map(({ title, img, alt, link }) => (
-                    <Card
-                        key={title}
-                        title={title}
-                        img={img}
-                        alt={alt}
-                        link={link}
-                    />
-                ))}
-            </FeaturedList>
+            <main>
+                <FeaturedList>
+                    {cardData.map(({ title, img, alt, link }) => (
+                        <Card
+                            key={title}
+                            title={title}
+                            img={img}
+                            alt={alt}
+                            link={link}
+                        />
+                    ))}
+                </FeaturedList>
+            </main>
             <Footer />
         </Page>
     );
