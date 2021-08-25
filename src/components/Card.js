@@ -1,7 +1,7 @@
 // @flow
 import React from "react";
 import styled from "styled-components";
-import { logo } from "../img/logo";
+// import { logo } from "../img/logo";
 
 const StyledCard = styled.li`
     flex: 0 1 200px;
@@ -17,6 +17,7 @@ const StyledCard = styled.li`
         height: 160px;
         object-fit: cover;
         border-bottom: 2px solid var(--green);
+        background-color: #c7bdbb;
     }
 
     .title {
@@ -39,16 +40,16 @@ type CardProps = {
 };
 
 function Card({ title, img, alt, link }: CardProps) {
-    const [src, setSrc] = React.useState(logo);
+    // const [src, setSrc] = React.useState(logo);
 
-    const handleImageLoad = () => setSrc(img);
+    // const handleImageLoad = () => setSrc(img);
 
     return (
         <StyledCard>
             <a href={link}>
                 <img
-                    onLoad={handleImageLoad}
-                    src={src}
+                    // onLoad={handleImageLoad}
+                    src={img}
                     alt=""
                     width="196"
                     height="160"
