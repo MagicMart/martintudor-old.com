@@ -17,7 +17,7 @@ const StyledCard = styled.li`
         height: 160px;
         object-fit: cover;
         border-bottom: 2px solid var(--green);
-        background-color: #d9d4c7;
+        background-color: var(--blue, lightblue);
     }
 
     .title {
